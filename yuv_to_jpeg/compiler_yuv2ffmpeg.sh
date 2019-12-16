@@ -1,0 +1,1 @@
+ gcc -Wall -g -o yuv2ffmpeg yuv2ffmpeg.c -I/home_a/ptkang/work/opensource/ffmpeg/out/include -L/home_a/ptkang/work/opensource/ffmpeg/out/lib -lavformat -lavcodec -lavutil -lavdevice -lavfilter -lpostproc -lswresample -lswscale -L/home_a/ptkang/work/opensource/x264/install/lib -lx264 -lm -lz  -lpthread -ldl -lrt
